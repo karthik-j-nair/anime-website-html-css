@@ -215,7 +215,7 @@ a {
     border-radius: 19px 0 19px 0;
 }
 
-#explore-section i{
+#explore-section i {
     font-size: 35px;
 }
 
@@ -264,6 +264,7 @@ a {
 #card-bottom h4 {
     color: white;
 }
+
 #card-bottom i {
     color: black;
     padding: 10px;
@@ -311,8 +312,9 @@ a {
     background-color: pink;
     height: 10px;
     border-radius: 5px;
-    
+
 }
+
 #card-div::-webkit-scrollbar-thumb {
     background-color: palevioletred;
     border-radius: 5px;
@@ -323,7 +325,6 @@ a {
     height: 75%;
     border-radius: 20px;
     flex-shrink: 0;
-    background-color: wheat;
     overflow: hidden;
     position: relative;
 }
@@ -352,8 +353,6 @@ a {
     height: 100%;
     background-color: rgba(255, 192, 203, 0.703);
     border-radius: 20px;
-    text-align: center;
-    padding: 100px 10px;
     bottom: 100%;
     left: 100%;
     transition: all ease 0.5s;
@@ -428,5 +427,230 @@ footer {
 }
 
 #footer-3 a {
-    font-size: 20px;
+    font-size: 23px;
+    font-weight: 200;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+    /* nav bar */
+    nav {
+        height: 50px;
+        padding: 0 6vw;
+    }
+
+    a {
+        font-size: 3vw;
+        font-weight: 600;
+    }
+
+    #logo a {
+        font-size: 11vw;
+    }
+
+    #nav1 #elements {
+        display: none;
+    }
+
+    #nav2 {
+        gap: 2vw;
+    }
+
+    #nav2 :nth-child(2) {
+        padding: 1vw 4vw;
+        border-radius: 10px;
+    }
+
+    /* hero section */
+    #hero {
+        height: auto;
+        flex-direction: column-reverse;
+        gap: 3vw;
+    }
+
+    #hero1 {
+        width: 95%;
+        height: auto;
+        gap: 4vw;
+    }
+
+    #hero1>h1 {
+        font-size: 6vw;
+        line-height: 1;
+    }
+
+    #hero1 p {
+        font-size: 3.5vw;
+    }
+
+    #search-div {
+        gap: 4vw;
+    }
+
+    #search-div #tags {
+        gap: 4vw;
+    }
+
+    #tags a {
+        font-size: 2.5vw;
+        padding: 1vw 3vw;
+    }
+
+    #search-bar {
+        width: 98%;
+        height: 10vw;
+        border-radius: 35px;
+        padding-right: 7px;
+        transition: all ease 0.3s;
+    }
+
+    #search-bar input {
+        font-size: 3.5vw;
+        padding-left: 2vw;
+    }
+
+    #search-bar i {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+
+    #suggestions {
+        gap: 3vw;
+        padding-left: 3.5vw;
+    }
+
+    #suggestions h6 {
+        font-size: 2.5vw;
+    }
+
+    #suggestions p {
+        font-size: 2.5vw;
+        padding: 1vw 2vw;
+    }
+
+    #hero2 {
+        width: 95%;
+        height: 81%;
+    }
+
+    /* Explore section */
+    #explore-section {
+        height: 25vw;
+        gap: 2vw;
+    }
+
+    #explore-section h3 {
+        font-size: 3vw;
+        padding: 1.5vw 3vw;
+        background-color: pink;
+        border-radius: 2vw 0 2vw 0;
+    }
+
+    #explore-section i {
+        font-size: 5vw;
+    }
+
+    /* anime section */
+    #anime-section {
+        padding-bottom: 6vw;
+        gap: 4vw;
+    }
+
+    .card {
+        height: 70vw;
+        width: 94vw;
+    }
+
+    #card-bottom {
+        width: 100%;
+        height: 22vw;
+        padding: 5vw 6vw 0 6vw;
+    }
+
+    /* directors section */
+    #directors {
+        padding-bottom: 6vw;
+    }
+
+    #directors #text-div {
+        display: flex;
+        align-items: center;
+        gap: 2vw;
+        padding: 6vw 0;
+    }
+
+    #text-div h4 {
+        font-size: 4vw;
+        padding: 2vw 3vw;
+        border-radius: 0 2vw 0 2vw;
+    }
+
+    #text-div i {
+        font-size: 5vw;
+    }
+
+    #card-div {
+        width: 90%;
+        height: 80vw;
+        gap: 4vw;
+    }
+
+    #dir-card {
+        width: 58%;
+        height: 75%;
+    }
+
+    #dir-card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #dir-details {
+        padding: 18vw 5vw;
+    }
+
+    #dir-details h6 {
+        font-size: 4.5vw;
+    }
+    #dir-details p {
+        font-size: 3vw;
+    }
+
+    /* footer */
+    footer {
+        padding-left: 5vw;
+        height: 25vh;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 4vw;
+    }
+
+    #footer-1 a {
+        font-size: 11vw;
+        font-weight: 500;
+        font-family: feel;
+    }
+
+    #footer-2 {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    #footer-2 a {
+        font-size: 3.3vw;
+    }
+
+    #footer-3 {
+        gap: 3vw;
+    }
+
+    #footer-3 a {
+        font-size: 23px;
+        font-weight: 200;
+    }
 }
