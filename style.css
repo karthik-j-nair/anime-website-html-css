@@ -236,7 +236,6 @@ a {
     overflow: hidden;
     position: relative;
     cursor: pointer;
-    transition: all ease 1s;
 }
 
 .card img {
@@ -255,6 +254,7 @@ a {
     justify-content: space-between;
     padding: 19px 25px 0 25px;
     align-items: center;
+    transition: all ease 0.2s;
 }
 
 .card:hover #card-bottom {
@@ -270,6 +270,113 @@ a {
     border-radius: 50%;
     background-color: white;
 }
+
+#directors {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+#directors #text-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#text-div h4 {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: pink;
+    border-radius: 0 19px 0 19px;
+}
+
+#text-div i {
+    font-size: 35px;
+}
+
+#card-div {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    align-items: center;
+    gap: 20px;
+}
+
+#card-div::-webkit-scrollbar {
+    background-color: pink;
+    height: 10px;
+    border-radius: 5px;
+    
+}
+#card-div::-webkit-scrollbar-thumb {
+    background-color: palevioletred;
+    border-radius: 5px;
+}
+
+#dir-card {
+    width: 18%;
+    height: 75%;
+    border-radius: 20px;
+    flex-shrink: 0;
+    background-color: wheat;
+    overflow: hidden;
+    position: relative;
+}
+
+#dir-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dir-details {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.703);
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px 10px;
+    top: 100%;
+    right: 100%;
+    transition: all ease 0.5s;
+    z-index: 5;
+}
+
+#dir-details2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 192, 203, 0.703);
+    border-radius: 20px;
+    text-align: center;
+    padding: 100px 10px;
+    bottom: 100%;
+    left: 100%;
+    transition: all ease 0.5s;
+    z-index: 4;
+}
+
+#dir-details h6 {
+    font-size: 22px;
+    font-weight: 900;
+}
+
+#dir-card:hover #dir-details {
+    position: absolute;
+    top: 0%;
+    right: 0;
+}
+
+#dir-card:hover #dir-details2 {
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
 
 #hr-div {
     width: 100%;
