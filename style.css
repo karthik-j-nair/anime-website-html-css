@@ -157,7 +157,7 @@ a {
 #search-bar i {
     font-size: 20px;
     padding: 11px;
-    background-color: #49A3F8;
+    background-color: #61F3FD;
     border-radius: 50%;
 }
 
@@ -211,7 +211,7 @@ a {
 #explore-section h3 {
     font-size: 25px;
     padding: 10px 20px;
-    background-color: #49A3F8;
+    background-color: #61F3FD;
     border-radius: 19px 0 19px 0;
 }
 
@@ -290,7 +290,7 @@ a {
 #text-div h4 {
     font-size: 25px;
     padding: 10px 20px;
-    background-color: #49A3F8;
+    background-color: #61F3FD;
     border-radius: 0 19px 0 19px;
 }
 
@@ -309,7 +309,7 @@ a {
 }
 
 #card-div::-webkit-scrollbar {
-    background-color: #49A3F8;
+    background-color: #61F3FD;
     height: 10px;
     border-radius: 5px;
 
@@ -338,7 +338,7 @@ a {
 #dir-details {
     width: 100%;
     height: 100%;
-    background-color: #49a3f8b8;
+    background-color: #61F3FDb8;
     border-radius: 20px;
     text-align: center;
     padding: 100px 10px;
@@ -352,7 +352,7 @@ a {
 #dir-details2 {
     width: 100%;
     height: 100%;
-    background-color: #49a3f8b8;
+    background-color: #61F3FDb8;
     border-radius: 20px;
     bottom: 100%;
     left: 100%;
@@ -549,7 +549,7 @@ footer {
     #explore-section h3 {
         font-size: 3vw;
         padding: 1.5vw 3vw;
-        background-color: #49A3F8;
+        background-color: #61F3FD;
         border-radius: 2vw 0 2vw 0;
     }
 
