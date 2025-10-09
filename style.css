@@ -139,7 +139,7 @@ a {
 #search-bar:hover,
 #search-bar:focus-within {
     background-color: transparent;
-    border: 3px solid rgba(216, 112, 147, 0.472);
+    border: 3px solid #7bbdfa;
 }
 
 #search-bar input {
@@ -157,7 +157,7 @@ a {
 #search-bar i {
     font-size: 20px;
     padding: 11px;
-    background-color: pink;
+    background-color: #49A3F8;
     border-radius: 50%;
 }
 
@@ -211,7 +211,7 @@ a {
 #explore-section h3 {
     font-size: 25px;
     padding: 10px 20px;
-    background-color: pink;
+    background-color: #49A3F8;
     border-radius: 19px 0 19px 0;
 }
 
@@ -290,7 +290,7 @@ a {
 #text-div h4 {
     font-size: 25px;
     padding: 10px 20px;
-    background-color: pink;
+    background-color: #49A3F8;
     border-radius: 0 19px 0 19px;
 }
 
@@ -309,14 +309,14 @@ a {
 }
 
 #card-div::-webkit-scrollbar {
-    background-color: pink;
+    background-color: #49A3F8;
     height: 10px;
     border-radius: 5px;
 
 }
 
 #card-div::-webkit-scrollbar-thumb {
-    background-color: palevioletred;
+    background-color: #215b91;
     border-radius: 5px;
 }
 
@@ -338,25 +338,27 @@ a {
 #dir-details {
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 192, 203, 0.703);
+    background-color: #49a3f8b8;
     border-radius: 20px;
     text-align: center;
     padding: 100px 10px;
     top: 100%;
     right: 100%;
-    transition: all ease 0.5s;
+    transition: all ease 0.8s;
     z-index: 5;
+    opacity: 0;
 }
 
 #dir-details2 {
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 192, 203, 0.703);
+    background-color: #49a3f8b8;
     border-radius: 20px;
     bottom: 100%;
     left: 100%;
-    transition: all ease 0.5s;
+    transition: all ease 0.8s;
     z-index: 4;
+    opacity: 0;
 }
 
 #dir-details h6 {
@@ -368,12 +370,14 @@ a {
     position: absolute;
     top: 0%;
     right: 0;
+    opacity: 0.9;
 }
 
 #dir-card:hover #dir-details2 {
     position: absolute;
     bottom: 0%;
     left: 0;
+    opacity: 0.9;
 }
 
 
@@ -545,7 +549,7 @@ footer {
     #explore-section h3 {
         font-size: 3vw;
         padding: 1.5vw 3vw;
-        background-color: pink;
+        background-color: #49A3F8;
         border-radius: 2vw 0 2vw 0;
     }
 
